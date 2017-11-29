@@ -42,3 +42,13 @@ print(dict.fromkeys(['miss','mir']))
 print(phonebook.items())
 #8.keys 将字典中的键以列表形式返回
 print(phonebook.keys())
+#9pop 用来获得对应于给定键的值,然后将这个键从字典中移除
+#10.popitem 弹出随机项
+phonebook.popitem()
+#11.setdefault 获得给定键的值,如果没有,则设定相应的值
+phonebook.setdefault('chang')
+print(phonebook)
+#12.update 利用一个字典更新另一个字典
+#提供的字典中的项会添加的旧的字典,存在则覆盖
+#13.values 以列表的形式返回字典中的值
+print(phonebook.values())
