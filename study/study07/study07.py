@@ -92,6 +92,8 @@ s = SPAMFilter()
 print(isinstance(s,SPAMFilter))
 #__class__ 知道一个对象属于哪一个类
 print(s.__class__)
+#新式类，这个概念还没有理解
+print(type(s))
 
 #多个超类 多重继承
 class Calualator:
